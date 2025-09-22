@@ -1,0 +1,10 @@
+//문제1
+
+//테이블 Employees 가 있어. 컬럼은 employee_id, first_name, last_name, salary, department_id 이다.
+
+//요구사항: 모든 직원의 성(last_name)과 월급(salary)을 월급 내림차순으로 출력하라.
+
+
+SELECT  last_name , SALARY
+FROM Employees
+ORDER BY salary DESC; 
